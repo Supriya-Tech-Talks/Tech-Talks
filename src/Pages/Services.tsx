@@ -835,7 +835,7 @@ export default function Services() {
                   </svg>
                 </div>
                 <div>
-                  <h2 className="text-3xl font-bold text-white">IT Support and fix it fast</h2>
+                  <h2 className="text-3xl font-bold text-white">IT Support</h2>
                   <p className="text-white/70 mt-1">24/7 technical support and IT infrastructure management</p>
                 </div>
               </div>
