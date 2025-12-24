@@ -169,7 +169,7 @@ export default function Services() {
                   </svg>
                 </div>
                 <div>
-                  <h2 className="text-3xl font-bold text-white">AI Agents & Automation</h2>
+                  <h2 className="text-3xl font-bold text-white">AI Agents & Automations</h2>
                   <p className="text-white/70 mt-1">Intelligent automation systems that work 24/7 to scale your business.</p>
                 </div>
               </div>
@@ -270,7 +270,7 @@ export default function Services() {
             </div>
           </div>
 
-          {/* Website Development Service */}
+          {/* Cloud Native Applications Service */}
           <div className="grid lg:grid-cols-2 gap-8 mb-12 mt-52">
             {/* Left Column - Main Service Card */}
             <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-xl animate-slide-left delay-200 hover:border-blue-400/50 transition-all duration-500 hover:scale-105">
@@ -281,8 +281,8 @@ export default function Services() {
                   </svg>
                 </div>
                 <div>
-                  <h2 className="text-3xl font-bold text-white">Web Application Development</h2>
-                  <p className="text-white/70 mt-1">Fast, responsive, and conversion-optimized websites that drive results</p>
+                  <h2 className="text-3xl font-bold text-white">Cloud Native Applications</h2>
+                  <p className="text-white/70 mt-1">Scalable, resilient applications built for the cloud</p>
                 </div>
               </div>
 
@@ -295,12 +295,12 @@ export default function Services() {
                 </h3>
                 <div className="grid md:grid-cols-2 gap-3">
                   {[
-                    "Custom design tailored to your brand",
-                    "SEO optimization & analytics",
-                    "E-commerce functionality",
-                    "Mobile-first responsive development",
-                    "CMS integration (WordPress, custom)",
-                    "Performance optimization"
+                    "Microservices architecture",
+                    "Container orchestration (Kubernetes)",
+                    "Cloud infrastructure setup",
+                    "Auto-scaling & load balancing",
+                    "CI/CD pipeline implementation",
+                    "Monitoring & observability"
                   ].map((item, index) => (
                     <div key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 1) * 100}`}>
                       <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -332,9 +332,9 @@ export default function Services() {
                 </h3>
                 <ul className="space-y-3">
                   {[
-                    "Fully functional website",
-                    "Admin dashboard",
-                    "SEO setup & Google Analytics",
+                    "Cloud-native application architecture",
+                    "Container deployment setup",
+                    "Infrastructure as code",
                     "Documentation & training"
                   ].map((item, index) => (
                     <li key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 4) * 100}`}>
@@ -351,7 +351,7 @@ export default function Services() {
               <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-xl animate-rotate-in delay-400 hover:border-purple-400/50 transition-all duration-500 hover:scale-105">
                 <h3 className="text-xl font-bold text-white mb-4">Timeline</h3>
                 <div className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-2 animate-text-shimmer">
-                  4-8 weeks
+                  6-12 weeks
                 </div>
                 <p className="text-white/70 text-sm">From consultation to deployment</p>
               </div>
@@ -366,9 +366,9 @@ export default function Services() {
                 </h3>
                 <ul className="space-y-3">
                   {[
-                    "Increase organic traffic by 150% +",
-                    "Improve conversion rates by 40%+",
-                    "Reduce page load time by 60% +"
+                    "Improved scalability & performance",
+                    "Reduced infrastructure costs by 30%+",
+                    "Faster deployment cycles"
                   ].map((item, index) => (
                     <li key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 8) * 100}`}>
                       <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -382,19 +382,19 @@ export default function Services() {
             </div>
           </div>
 
-          {/* Mobile App Development Service */}
+          {/* SaaS Applications Service */}
           <div className="grid lg:grid-cols-2 gap-8 mb-12 mt-52">
             {/* Left Column - Main Service Card */}
             <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-xl animate-slide-left delay-200 hover:border-blue-400/50 transition-all duration-500 hover:scale-105">
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center flex-shrink-0 animate-float-rotate">
                   <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
                   </svg>
                 </div>
                 <div>
-                  <h2 className="text-3xl font-bold text-white">Mobile App Development</h2>
-                  <p className="text-white/70 mt-1">Native and cross-platform applications that engage your users</p>
+                  <h2 className="text-3xl font-bold text-white">SaaS Applications</h2>
+                  <p className="text-white/70 mt-1">Scalable software-as-a-service solutions for modern businesses</p>
                 </div>
               </div>
 
@@ -407,12 +407,12 @@ export default function Services() {
                 </h3>
                 <div className="grid md:grid-cols-2 gap-3">
                   {[
-                    "iOS & Android native development",
-                    "Cloud backend integration",
-                    "In-app analytics",
-                    "Cross-platform (React Native, Flutter)",
-                    "Push notifications",
-                    "App Store deployment"
+                    "Multi-tenant architecture",
+                    "Subscription management",
+                    "User authentication & authorization",
+                    "Payment gateway integration",
+                    "API development & documentation",
+                    "Admin dashboard & analytics"
                   ].map((item, index) => (
                     <div key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 1) * 100}`}>
                       <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -444,10 +444,10 @@ export default function Services() {
                 </h3>
                 <ul className="space-y-3">
                   {[
-                    "Production-ready mobile app",
-                    "Backend API & database",
-                    "Admin panel",
-                    "App Store listings"
+                    "Fully functional SaaS platform",
+                    "Subscription billing system",
+                    "Admin dashboard & analytics",
+                    "API documentation & SDK"
                   ].map((item, index) => (
                     <li key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 4) * 100}`}>
                       <svg className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -478,9 +478,9 @@ export default function Services() {
                 </h3>
                 <ul className="space-y-3">
                   {[
-                    "Reach mobile-first customers",
-                    "Increase user engagement by 3x",
-                    "Generate new revenue streams"
+                    "Recurring revenue model",
+                    "Scalable user base management",
+                    "Automated billing & subscriptions"
                   ].map((item, index) => (
                     <li key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 8) * 100}`}>
                       <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -494,19 +494,19 @@ export default function Services() {
             </div>
           </div>
 
-          {/* AWS Cloud Service */}
+          {/* Enterprise Software Solutions Service */}
           <div className="grid lg:grid-cols-2 gap-8 mb-12 mt-52">
             {/* Left Column - Main Service Card */}
             <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-xl animate-slide-left delay-200 hover:border-blue-400/50 transition-all duration-500 hover:scale-105">
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center flex-shrink-0 animate-float-rotate">
                   <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                   </svg>
                 </div>
                 <div>
-                  <h2 className="text-3xl font-bold text-white">AWS Cloud</h2>
-                  <p className="text-white/70 mt-1">Scalable cloud infrastructure and services to power your business</p>
+                  <h2 className="text-3xl font-bold text-white">Enterprise Software Solutions</h2>
+                  <p className="text-white/70 mt-1">Comprehensive enterprise-grade software for large organizations</p>
                 </div>
               </div>
 
@@ -519,12 +519,12 @@ export default function Services() {
                 </h3>
                 <div className="grid md:grid-cols-2 gap-3">
                   {[
-                    "Cloud infrastructure setup & migration",
-                    "EC2, S3, RDS configuration",
-                    "Auto-scaling & load balancing",
-                    "Cloud security & compliance",
-                    "CI/CD pipeline setup",
-                    "24/7 monitoring & support"
+                    "Enterprise architecture design",
+                    "Scalable system development",
+                    "Integration with existing systems",
+                    "Security & compliance features",
+                    "High availability & disaster recovery",
+                    "Enterprise support & maintenance"
                   ].map((item, index) => (
                     <div key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 1) * 100}`}>
                       <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -556,10 +556,10 @@ export default function Services() {
                 </h3>
                 <ul className="space-y-3">
                   {[
-                    "Fully configured AWS infrastructure",
-                    "Cloud architecture documentation",
-                    "Security & compliance setup",
-                    "Monitoring & alerting system"
+                    "Enterprise-grade software system",
+                    "Integration documentation",
+                    "Security & compliance reports",
+                    "Training & support materials"
                   ].map((item, index) => (
                     <li key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 4) * 100}`}>
                       <svg className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -575,7 +575,7 @@ export default function Services() {
               <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-xl animate-rotate-in delay-400 hover:border-purple-400/50 transition-all duration-500 hover:scale-105">
                 <h3 className="text-xl font-bold text-white mb-4">Timeline</h3>
                 <div className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-2 animate-text-shimmer">
-                  3-8 weeks
+                  12-24 weeks
                 </div>
                 <p className="text-white/70 text-sm">From consultation to deployment</p>
               </div>
@@ -590,9 +590,9 @@ export default function Services() {
                 </h3>
                 <ul className="space-y-3">
                   {[
-                    "Reduce infrastructure costs by 40%+",
-                    "Improve system uptime to 99.9%+",
-                    "Scale resources automatically"
+                    "Streamlined business operations",
+                    "Improved data management",
+                    "Enhanced security & compliance"
                   ].map((item, index) => (
                     <li key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 8) * 100}`}>
                       <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -606,19 +606,19 @@ export default function Services() {
             </div>
           </div>
 
-          {/* Native Development Service */}
+          {/* CRM & ERP Solutions Service */}
           <div className="grid lg:grid-cols-2 gap-8 mb-12 mt-52">
             {/* Left Column - Main Service Card */}
             <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-xl animate-slide-left delay-200 hover:border-blue-400/50 transition-all duration-500 hover:scale-105">
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center flex-shrink-0 animate-float-rotate">
                   <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 </div>
                 <div>
-                  <h2 className="text-3xl font-bold text-white">Native Development</h2>
-                  <p className="text-white/70 mt-1">High-performance native applications for iOS, Android, and desktop platforms</p>
+                  <h2 className="text-3xl font-bold text-white">CRM & ERP Solutions</h2>
+                  <p className="text-white/70 mt-1">Comprehensive customer relationship and enterprise resource planning systems</p>
                 </div>
               </div>
 
@@ -631,12 +631,12 @@ export default function Services() {
                 </h3>
                 <div className="grid md:grid-cols-2 gap-3">
                   {[
-                    "iOS & Android native app development",
-                    "Desktop applications (Windows, macOS, Linux)",
-                    "Native UI/UX design & implementation",
-                    "Platform-specific optimizations",
-                    "App store submission & deployment",
-                    "Performance tuning & optimization"
+                    "Customer relationship management",
+                    "Sales pipeline & lead tracking",
+                    "Inventory & supply chain management",
+                    "Financial management & accounting",
+                    "Reporting & analytics dashboard",
+                    "Integration with third-party tools"
                   ].map((item, index) => (
                     <div key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 1) * 100}`}>
                       <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -668,10 +668,10 @@ export default function Services() {
                 </h3>
                 <ul className="space-y-3">
                   {[
-                    "Fully functional native applications",
-                    "Source code & documentation",
-                    "App store ready packages",
-                    "Testing & QA reports"
+                    "Complete CRM/ERP system",
+                    "Custom modules & workflows",
+                    "Analytics & reporting tools",
+                    "User training & documentation"
                   ].map((item, index) => (
                     <li key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 4) * 100}`}>
                       <svg className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -687,9 +687,9 @@ export default function Services() {
               <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-xl animate-rotate-in delay-400 hover:border-purple-400/50 transition-all duration-500 hover:scale-105">
                 <h3 className="text-xl font-bold text-white mb-4">Timeline</h3>
                 <div className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-2 animate-text-shimmer">
-                  6-12 weeks
+                  8-16 weeks
                 </div>
-                <p className="text-white/70 text-sm">From design to app store launch</p>
+                <p className="text-white/70 text-sm">From consultation to deployment</p>
               </div>
 
               {/* Expected Outcomes Card */}
@@ -702,225 +702,9 @@ export default function Services() {
                 </h3>
                 <ul className="space-y-3">
                   {[
-                    "High-performance native applications",
-                    "Seamless user experience across platforms",
-                    "Optimized for app store rankings"
-                  ].map((item, index) => (
-                    <li key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 8) * 100}`}>
-                      <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                      <span className="text-white/80 text-sm">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* Azure Cloud Service */}
-          <div className="grid lg:grid-cols-2 gap-8 mb-12 mt-52">
-            {/* Left Column - Main Service Card */}
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-xl animate-slide-left delay-200 hover:border-blue-400/50 transition-all duration-500 hover:scale-105">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center flex-shrink-0 animate-float-rotate">
-                  <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
-                  </svg>
-                </div>
-                <div>
-                  <h2 className="text-3xl font-bold text-white">Azure Cloud</h2>
-                  <p className="text-white/70 mt-1">Enterprise-grade cloud solutions with Microsoft Azure</p>
-                </div>
-              </div>
-
-              <div className="mb-8">
-                <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                  <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  What's Included
-                </h3>
-                <div className="grid md:grid-cols-2 gap-3">
-                  {[
-                    "Azure infrastructure setup & migration",
-                    "Virtual machines & app services",
-                    "Azure SQL & Cosmos DB",
-                    "Azure Active Directory",
-                    "DevOps & CI/CD pipelines",
-                    "24/7 monitoring & support"
-                  ].map((item, index) => (
-                    <div key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 1) * 100}`}>
-                      <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                      <span className="text-white/80 text-sm">{item}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <button className=" mt-60 w-full px-6 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-xl hover:from-blue-600 hover:to-purple-700 shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
-                <span>Get Started</span>
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </button>
-            </div>
-
-            {/* Right Column - Details Cards */}
-            <div className="space-y-6">
-              <div className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-xl animate-slide-right delay-300 hover:border-blue-400/50 transition-all duration-500 hover:scale-105">
-                <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                  <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  Deliverables
-                </h3>
-                <ul className="space-y-3">
-                  {[
-                    "Fully configured Azure infrastructure",
-                    "Cloud architecture documentation",
-                    "Security & compliance setup",
-                    "Monitoring & alerting system"
-                  ].map((item, index) => (
-                    <li key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 4) * 100}`}>
-                      <svg className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                      <span className="text-white/80 text-sm">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-xl animate-rotate-in delay-400 hover:border-purple-400/50 transition-all duration-500 hover:scale-105">
-                <h3 className="text-xl font-bold text-white mb-4">Timeline</h3>
-                <div className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-2 animate-text-shimmer">
-                  3-8 weeks
-                </div>
-                <p className="text-white/70 text-sm">From consultation to deployment</p>
-              </div>
-
-              <div className="bg-gradient-to-br from-green-500/20 to-teal-500/20 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-xl animate-slide-right delay-500 hover:border-green-400/50 transition-all duration-500 hover:scale-105">
-                <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                  <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                  </svg>
-                  Expected Outcomes
-                </h3>
-                <ul className="space-y-3">
-                  {[
-                    "Reduce infrastructure costs by 40%+",
-                    "Improve system uptime to 99.9%+",
-                    "Scale resources automatically"
-                  ].map((item, index) => (
-                    <li key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 8) * 100}`}>
-                      <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                      <span className="text-white/80 text-sm">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* GCP Cloud Service */}
-          <div className="grid lg:grid-cols-2 gap-8 mb-12 mt-52">
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-xl animate-slide-left delay-200 hover:border-blue-400/50 transition-all duration-500 hover:scale-105">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center flex-shrink-0 animate-float-rotate">
-                  <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
-                  </svg>
-                </div>
-                <div>
-                  <h2 className="text-3xl font-bold text-white">GCP Cloud</h2>
-                  <p className="text-white/70 mt-1">Google Cloud Platform solutions for scalable applications</p>
-                </div>
-              </div>
-
-              <div className="mb-8">
-                <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                  <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  What's Included
-                </h3>
-                <div className="grid md:grid-cols-2 gap-3">
-                  {[
-                    "GCP infrastructure setup & migration",
-                    "Compute Engine & App Engine",
-                    "Cloud SQL & BigQuery",
-                    "Cloud Storage & CDN",
-                    "Kubernetes & container services",
-                    "24/7 monitoring & support"
-                  ].map((item, index) => (
-                    <div key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 1) * 100}`}>
-                      <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                      <span className="text-white/80 text-sm">{item}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <button className=" mt-60 w-full px-6 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-xl hover:from-blue-600 hover:to-purple-700 shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
-                <span>Get Started</span>
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </button>
-            </div>
-
-            <div className="space-y-6">
-              <div className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-xl animate-slide-right delay-300 hover:border-blue-400/50 transition-all duration-500 hover:scale-105">
-                <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                  <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  Deliverables
-                </h3>
-                <ul className="space-y-3">
-                  {[
-                    "Fully configured GCP infrastructure",
-                    "Cloud architecture documentation",
-                    "Security & compliance setup",
-                    "Monitoring & alerting system"
-                  ].map((item, index) => (
-                    <li key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 4) * 100}`}>
-                      <svg className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                      <span className="text-white/80 text-sm">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-xl animate-rotate-in delay-400 hover:border-purple-400/50 transition-all duration-500 hover:scale-105">
-                <h3 className="text-xl font-bold text-white mb-4">Timeline</h3>
-                <div className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-2 animate-text-shimmer">
-                  3-8 weeks
-                </div>
-                <p className="text-white/70 text-sm">From consultation to deployment</p>
-              </div>
-
-              <div className="bg-gradient-to-br from-green-500/20 to-teal-500/20 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-xl animate-slide-right delay-500 hover:border-green-400/50 transition-all duration-500 hover:scale-105">
-                <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                  <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                  </svg>
-                  Expected Outcomes
-                </h3>
-                <ul className="space-y-3">
-                  {[
-                    "Reduce infrastructure costs by 40%+",
-                    "Improve system uptime to 99.9%+",
-                    "Scale resources automatically"
+                    "Improved customer relationships",
+                    "Streamlined business processes",
+                    "Better data visibility & insights"
                   ].map((item, index) => (
                     <li key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 8) * 100}`}>
                       <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -1041,220 +825,6 @@ export default function Services() {
             </div>
           </div>
 
-          {/* Digital Marketing Service */}
-          <div className="grid lg:grid-cols-2 gap-8 mb-12 mt-52">
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-xl animate-slide-left delay-200 hover:border-blue-400/50 transition-all duration-500 hover:scale-105">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center flex-shrink-0 animate-float-rotate">
-                  <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                  </svg>
-                </div>
-                <div>
-                  <h2 className="text-3xl font-bold text-white">Digital Marketing</h2>
-                  <p className="text-white/70 mt-1">Search engine optimization and comprehensive digital strategies</p>
-                </div>
-              </div>
-
-              <div className="mb-8">
-                <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                  <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  What's Included
-                </h3>
-                <div className="grid md:grid-cols-2 gap-3">
-                  {[
-                    "SEO optimization & keyword research",
-                    "Content marketing & strategy",
-                    "Social media management",
-                    "Email marketing campaigns",
-                    "Analytics & performance tracking",
-                    "Monthly reporting & insights"
-                  ].map((item, index) => (
-                    <div key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 1) * 100}`}>
-                      <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                      <span className="text-white/80 text-sm">{item}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <button className=" mt-60 w-full px-6 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-xl hover:from-blue-600 hover:to-purple-700 shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
-                <span>Get Started</span>
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </button>
-            </div>
-
-            <div className="space-y-6">
-              <div className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-xl animate-slide-right delay-300 hover:border-blue-400/50 transition-all duration-500 hover:scale-105">
-                <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                  <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  Deliverables
-                </h3>
-                <ul className="space-y-3">
-                  {[
-                    "SEO-optimized website",
-                    "Content strategy & calendar",
-                    "Social media presence",
-                    "Monthly performance reports"
-                  ].map((item, index) => (
-                    <li key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 4) * 100}`}>
-                      <svg className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                      <span className="text-white/80 text-sm">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-xl animate-rotate-in delay-400 hover:border-purple-400/50 transition-all duration-500 hover:scale-105">
-                <h3 className="text-xl font-bold text-white mb-4">Timeline</h3>
-                <div className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-2 animate-text-shimmer">
-                  Ongoing
-                </div>
-                <p className="text-white/70 text-sm">Monthly campaigns & optimization</p>
-              </div>
-
-              <div className="bg-gradient-to-br from-green-500/20 to-teal-500/20 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-xl animate-slide-right delay-500 hover:border-green-400/50 transition-all duration-500 hover:scale-105">
-                <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                  <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                  </svg>
-                  Expected Outcomes
-                </h3>
-                <ul className="space-y-3">
-                  {[
-                    "Increase organic traffic by 200%+",
-                    "Improve search rankings",
-                    "Generate quality leads"
-                  ].map((item, index) => (
-                    <li key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 8) * 100}`}>
-                      <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                      <span className="text-white/80 text-sm">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* Performance Marketing Service */}
-          <div className="grid lg:grid-cols-2 gap-8 mb-12 mt-52">
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-xl animate-slide-left delay-200 hover:border-blue-400/50 transition-all duration-500 hover:scale-105">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center flex-shrink-0 animate-float-rotate">
-                  <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                  </svg>
-                </div>
-                <div>
-                  <h2 className="text-3xl font-bold text-white">Performance Marketing</h2>
-                  <p className="text-white/70 mt-1">Data-driven campaigns that deliver measurable results</p>
-                </div>
-              </div>
-
-              <div className="mb-8">
-                <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                  <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  What's Included
-                </h3>
-                <div className="grid md:grid-cols-2 gap-3">
-                  {[
-                    "PPC & paid advertising campaigns",
-                    "Google Ads & Facebook Ads",
-                    "Conversion rate optimization",
-                    "Landing page optimization",
-                    "A/B testing & analytics",
-                    "ROI tracking & reporting"
-                  ].map((item, index) => (
-                    <div key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 1) * 100}`}>
-                      <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                      <span className="text-white/80 text-sm">{item}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <button className="mt-60 w-full px-6 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-xl hover:from-blue-600 hover:to-purple-700 shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
-                <span>Get Started</span>
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </button>
-            </div>
-
-            <div className="space-y-6">
-              <div className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-xl animate-slide-right delay-300 hover:border-blue-400/50 transition-all duration-500 hover:scale-105">
-                <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                  <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  Deliverables
-                </h3>
-                <ul className="space-y-3">
-                  {[
-                    "Optimized ad campaigns",
-                    "Landing pages & funnels",
-                    "Conversion tracking setup",
-                    "Monthly performance reports"
-                  ].map((item, index) => (
-                    <li key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 4) * 100}`}>
-                      <svg className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                      <span className="text-white/80 text-sm">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-xl animate-rotate-in delay-400 hover:border-purple-400/50 transition-all duration-500 hover:scale-105">
-                <h3 className="text-xl font-bold text-white mb-4">Timeline</h3>
-                <div className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-2 animate-text-shimmer">
-                  Ongoing
-                </div>
-                <p className="text-white/70 text-sm">Continuous optimization & campaigns</p>
-              </div>
-
-              <div className="bg-gradient-to-br from-green-500/20 to-teal-500/20 backdrop-blur-md rounded-2xl p-6 border border-white/20 shadow-xl animate-slide-right delay-500 hover:border-green-400/50 transition-all duration-500 hover:scale-105">
-                <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                  <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                  </svg>
-                  Expected Outcomes
-                </h3>
-                <ul className="space-y-3">
-                  {[
-                    "Increase conversion rates by 50%+",
-                    "Reduce cost per acquisition",
-                    "Maximize ROI on ad spend"
-                  ].map((item, index) => (
-                    <li key={index} className={`flex items-start gap-2 animate-scale-in delay-${(index + 8) * 100}`}>
-                      <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                      <span className="text-white/80 text-sm">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-
           {/* IT Support Service */}
           <div className="grid lg:grid-cols-2 gap-8 mb-12 mt-52">
             <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-xl animate-slide-left delay-200 hover:border-blue-400/50 transition-all duration-500 hover:scale-105">
@@ -1265,7 +835,7 @@ export default function Services() {
                   </svg>
                 </div>
                 <div>
-                  <h2 className="text-3xl font-bold text-white">IT Support</h2>
+                  <h2 className="text-3xl font-bold text-white">IT Support and fix it fast</h2>
                   <p className="text-white/70 mt-1">24/7 technical support and IT infrastructure management</p>
                 </div>
               </div>
